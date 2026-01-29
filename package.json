@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "format": "prettier --write * .js"
   },
   "repository": {
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/FieldHub/FullSTACK-268-S02#readme",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "^3.8.0"
   },
   "dependencies": {
